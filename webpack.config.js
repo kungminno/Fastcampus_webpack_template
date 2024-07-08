@@ -35,7 +35,7 @@ module.exports = {
                 test:/\.s?css$/,
                 use: [
                     'vue-style-loader', //vue 파일 내부에 style 파일을 해석해서 동작시킬수있도록 만듦
-                    'style-loader', //해석한 css 를 html에 삽입
+                    // 'style-loader', //해석한 css 를 html에 삽입
                     'css-loader' ,   //자바스크립트에서 css를 해석
                     'postcss-loader', //해석한 scss 를 html에 삽입
                     'sass-loader'       //자바스크립트에서 scss를 해석
